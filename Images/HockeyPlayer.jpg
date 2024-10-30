@@ -1,20 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey Player Image</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-        }
-    </style>
-</head>
 <body>
     <img src="https://static.vecteezy.com/system/resources/previews/002/859/241/original/professional-sport-and-lifestyle-young-man-hockey-player-cartoon-character-sliding-on-ice-with-stick-in-sports-uniform-vector.jpg" alt="Hockey Player" />
 </body>
