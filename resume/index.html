@@ -1,54 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Resume</title>
-    </head>
-    <body>
-        <nav>
-            <h1>Lathan Olson</h1>
-            <ul>
-                <li><a href=index.html#contactinfo>Contact Info</a></li>
-                <li><a href=index.html#education>Education</a></li>
-                <li><a href=index.html#experience>Experience</a></li>
-                <li><a href=index.html#Skills>Skills</a></li>
-            </ul>
-        </nav>
-<section id="contactinfo">
-            <h2>Contact Info</h2>
-            <img src="https://content.sportslogos.net/logos/33/4954/full/northern_colorado_bears_logo_alternate_20159875.png">
-            <ul>
-                <li>Phone: 320-260-8228</li>
-                <li>Email: olso1711@bears.unco.edu</li>
-            </ul>
-</section>
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    <h3> Castle View High School <span Class="date">(May 2021)</span></h3> 
-                  <h3>Current Student at the University Of Northern Colorado <span class="date">(Fall 2021-Current)</span></h3>
-                     <ul>
-                        <li>Major: Communications</li>
-                        <li>Minor: Digital Marketing</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li>Girls Hockey Coach<span class="date">(September 2017- May 2021)</span></li>
-                <li> Head Dietitian/Chef at Skilled Nursing facility <span class="date">(May 2022-August 2022)</span></li>
-            </ul>
-        </section>
+<head>
+    <title>Resume</title>
+    <style>
+        :root {
+            --Main-Blue: #4A90E2;
+            --Accent-Coral: #FF6F61;
+            --Light-Gray: #F5F5F5;
+            --Dark-Gray: #333333;
+            --White: #ffffff;
+        }
+
+        body {
+            background-color: var(--Light-Gray);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--Dark-Gray);
+        }
+
+        nav {
+            background-color: var(--Main-Blue);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav h1 {
+            color: var(--White);
+            font-size: 2em;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: var(--White);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: var(--Accent-Coral);
+        }
+
+        section {
+            background-color: var(--White);
+            border: 2px solid var(--Main-Blue);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: var(--Main-Blue);
+            font-size: 1.8em;
+        }
+
+        h3 {
+            color: var(--Accent-Coral);
+        }
+
+        #contactinfo img {
+            width: 150px;
+            border-radius: 50%;
+            margin: 10px 0;
+        }
+
+        #contactinfo ul {
+            padding-left: 20px;
+        }
+
+        #contactinfo li {
+            margin-bottom: 10px;
+        }
+
+        .date {
+            color: var(--Accent-Coral);
+            font-style: italic;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        #Skills ul {
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Lathan Olson</h1>
+        <ul>
+            <li><a href="index.html#contactinfo">Contact Info</a></li>
+            <li><a href="index.html#education">Education</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#Skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <section id="contactinfo">
+        <h2>Contact Info</h2>
+        <img src="https://content.sportslogos.net/logos/33/4954/full/northern_colorado_bears_logo_alternate_20159875.png" alt="Logo">
+        <ul>
+            <li>Phone: 320-260-8228</li>
+            <li>Email: olso1711@bears.unco.edu</li>
+        </ul>
     </section>
-        <section id="Skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Public Speaking</li>
-                <li>Team Leading</li>
-                <li>Interpersonal Communication</li>
-            </ul>
-        </section>
-    </body>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <h3>Castle View High School <span class="date">(May 2021)</span></h3> 
+                <h3>Current Student at the University Of Northern Colorado <span class="date">(Fall 2021-Current)</span></h3>
+                <ul>
+                    <li>Major: Communications</li>
+                    <li>Minor: Digital Marketing</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Girls Hockey Coach <span class="date">(September 2017- May 2021)</span></li>
+            <li>Head Dietitian/Chef at Skilled Nursing Facility <span class="date">(May 2022-August 2022)</span></li>
+        </ul>
+    </section>
+
+    <section id="Skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Public Speaking</li>
+            <li>Team Leading</li>
+            <li>Interpersonal Communication</li>
+        </ul>
+    </section>
+</body>
 </html>
+
